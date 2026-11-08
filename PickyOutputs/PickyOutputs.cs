@@ -1,10 +1,10 @@
 ﻿using Quintessential;
 
-namespace TemplateMod;
+namespace PickyOutputs;
 
-internal class TemplateMod : QuintessentialMod, IDataMod {
-    public static TemplateMod Instance { get; }
-    public override string ModId => "template_modid";
+internal class PickyOutputs : QuintessentialMod, IDataMod {
+    public static PickyOutputs Instance { get; }
+    public override string ModId => "pickyoutputs";
 
     public override void Load() { }
 

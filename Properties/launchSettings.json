@@ -5,8 +5,7 @@
     },
     "Run With Opus Mutatum": {
       "commandName": "Executable",
-      "executablePath": "D:\\C#_projects\\TemplateMod\\TestEnvironment\\OpusMutatum.exe",
-      "workingDirectory": "D:\\C#_projects\\TemplateMod\\TestEnvironment"
+      "executablePath": "C:\\Users\\wilmo\\source\\repos\\PickyOutputs\\TestEnvironment\\OpusMutatum.exe",
+      "workingDirectory": "C:\\Users\\wilmo\\source\\repos\\PickyOutputs\\TestEnvironment"
     }
   }
-}

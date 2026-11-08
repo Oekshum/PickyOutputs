@@ -1,16 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <RootNamespace />
-    <AssemblyName>TemplateMod</AssemblyName>
+    <AssemblyName>PickyOutputs</AssemblyName>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 	<GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
 	<PropertyGroup>
 		<!-- Path to Opus Magnum folder, Contains Lightning.exe et.al -->
-		<OpusDir>D:\C#_projects\TemplateMod\TestEnvironment\modded</OpusDir>
+		<OpusDir>C:\Users\wilmo\source\repos\PickyOutputs\TestEnvironment\modded</OpusDir>
 		<PlatformTarget>x64</PlatformTarget>
 	</PropertyGroup>
 
@@ -35,7 +35,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="TemplateMod\" />
+    <Folder Include="TestEnvironment\modded\lib64-win-x64\" />
+    <Folder Include="TestEnvironment\modded\UnpackedMods\" />
   </ItemGroup>
 
 </Project>
